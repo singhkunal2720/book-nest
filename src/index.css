@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+:root {
+  --color-primary: #facc15;       
+  --color-primary-dark: #eab308; 
+  --color-accent: #fefce8;      
+  --color-text-dark: #1f2937;     
+  --color-text-light: #6b7280;   
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-border: #e5e7eb;        
+  --color-error: #dc2626;        
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
